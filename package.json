@@ -1,0 +1,19 @@
+{
+  "name": "htmx2express-starter",
+  "version": "1.0.0",
+  "description": "A basic starter template for HTMX 2.0 and Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js -e js,html,css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "htmx.org": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
